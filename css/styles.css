@@ -123,6 +123,8 @@ img {
         letter-spacing: 0.02em; 
         color:#2E2F42;
         padding: 24px 0;
+        position: relative;
+        color: #404bbf;
 }
 
 .header-address-menu-link {
