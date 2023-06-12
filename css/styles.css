@@ -505,6 +505,10 @@ img {
         background-color: #2E2F42;
         padding-top: 101px;
         padding-bottom: 100px;
+        display: flex;
+        align-items: baseline;
+        margin-right: 120px;
+
         
 }
 
@@ -543,6 +547,42 @@ img {
         text-transform: uppercase;
         color: #f4f4fd;
         
+}
+
+.footer-media {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#FFFFFF;
+        margin-bottom: 16px;
+}
+.footer-list {
+        display: flex;
+        gap: 16px;
+        transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-item {
+        width: 40px;
+        height: 40px;
+}
+.footer-title {
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.footer-title:hover {
+        background-color: #31d0aa;
+}
+.footer-title:focus {
+        background-color: #31d0aa;
+}
+.footer-svg {
+        fill:#f4f4fd;
 }
 
 /**-----------------PORTFOLIO----------------**/
@@ -591,11 +631,11 @@ img {
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-class:hover {
+.portfolio-item:hover {
         transform:translateY(0%);
 }
 
-.portfolio-class:focus {
+.portfolio-item:focus {
         transform: translateY(0%);
 }
 .portfolio-class:hover {
@@ -621,10 +661,6 @@ img {
 .portfolio-button-item {
         border: 1px solid #e7e9fc;
         border-radius: 4px;
-        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button-item:hover {
@@ -659,6 +695,10 @@ img {
         padding-right: 24px;
         border: 1px solid #e7e9fc;
         border-radius: 4px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
