@@ -162,6 +162,10 @@ img {
 
 .hero-container {
         background-color: #2E2F42;
+        background-image: url(../images/people-office\ 1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         padding: 188px 0;
                 
 }
@@ -189,6 +193,12 @@ img {
 
 .hero-btn:focus {
     background-color: #404BBF;
+}
+
+.strategies-item-antenna {
+        background: #F4F4FD;
+        border-radius: 4px;
+       
 }
 
 /**TODO-----------------STRATEGIES----------------**/
