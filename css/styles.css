@@ -109,7 +109,7 @@ img {
         padding: 24px 0 24px;
         position: relative;
         color: #404bbf;
-        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 
 .header-logo span {
@@ -129,6 +129,7 @@ img {
         padding: 24px 0;
         position: relative;
         color: #404bbf;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link::after,
 .header-menu-link:is(:hover, :focus)::after {
@@ -662,11 +663,11 @@ img {
         transform: translateY(0%);
 }
 
-.portfolio-item:hover {
+.portfolio-item-text:hover {
         transform:translateY(0%);
 }
 
-.portfolio-item:focus {
+.portfolio-item-text:focus {
         transform: translateY(0%);
 }
 .portfolio-class:hover {
@@ -698,10 +699,6 @@ img {
 .portfolio-button-item {
         border: 1px solid #e7e9fc;
         border-radius: 4px;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button-item:hover {
@@ -736,6 +733,10 @@ img {
         padding-right: 24px;
         border: 1px solid #e7e9fc;
         border-radius: 4px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
