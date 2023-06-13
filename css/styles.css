@@ -642,6 +642,7 @@ img {
         overflow: hidden;
 }
 .portfolio-text {
+        transform: translateY(0%);
         position: absolute;
         top: 0;
         font-size: 16px;
@@ -837,8 +838,11 @@ img {
 .button-modal:hover {
         background-color: #404bbf;
         border: none;
+}
+..button-modal:hover {
         fill: #ffffff;
 }
+
 .button-modal:focus {
         background-color: #404bbf;
         border: none;
