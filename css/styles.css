@@ -662,6 +662,19 @@ img {
 .portfolio-item-text:focus {
         transform: translateY(0%);
 }
+.portfolio-text:hover {
+        transform: translateY(0%);
+}
+.portfolio-text:focus {
+        transform: translateY(0%);
+}
+.portfolio-class:hover {
+        transform: translateY(0%);
+}
+.portfolio-class:focus {
+        transform: translateY(0%);
+}
+
 
 .portfolio-class:hover {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
