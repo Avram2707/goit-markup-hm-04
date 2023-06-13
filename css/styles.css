@@ -657,6 +657,10 @@ img {
                 
 }
 
+.portfolio-text {
+        transform: translateY(0%);
+
+}
 .portfolio-text:hover {
         transform: translateY(0%);
 }
