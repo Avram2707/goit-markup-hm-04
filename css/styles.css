@@ -657,10 +657,6 @@ img {
                 
 }
 
-.portfolio-text {
-        transform: translateY(0%);
-
-}
 .portfolio-text:hover {
         transform: translateY(0%);
 }
@@ -835,7 +831,7 @@ img {
 .button-modal:hover {
         background-color: #404bbf;
         border: none;
-        fill: #ffffff;
+       
 }
 .button-modal:focus {
         background-color: #404bbf;
