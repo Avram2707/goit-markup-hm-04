@@ -839,15 +839,15 @@ img {
 .button-modal:is(:hover, :focus) {
         background-color: #404bbf;
         border: none;
-        fill: #ffffff;
+        
 }
 
 .button-svg {
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill var(--tran-250);
 }
 
 .button-modal:is(:hover, :focus) .button-svg {
-        fill: #ffffff;
+        fill: var(--white-color);
 }
 
 /**-----------------PORTFOLIO1----------------**/
