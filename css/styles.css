@@ -846,7 +846,7 @@ img {
 }
 
 .button-modal:is(:hover, :focus) .button-svg {
-        fill: #ffffff;
+       
 }
 
 /**-----------------PORTFOLIO1----------------**/
