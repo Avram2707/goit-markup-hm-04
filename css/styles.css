@@ -838,9 +838,7 @@ img {
 
 .button-modal:is(:hover, :focus) {
         background-color: #404bbf;
-        border: none;
-        fill: #ffffff;
-        
+        border: none;       
 }
 
 .button-svg {
